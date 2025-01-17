@@ -11,7 +11,7 @@ export class ServiceGenerateUUIDService {
 
 
 generate():Observable<Generator>{
-return this.http.get<Generator>("https://uuidgenerator1-0.onrender.com/generator/generateUUID")
+return this.http.get<Generator>("http://localhost:8080/generator/generateUUID")
 }
 
 }
